@@ -6,7 +6,7 @@ This repository contains all the projects made by __[me](https://www.linkedin.co
 ## Fundamentos do Desenvolvimento Web :heavy_check_mark:
 
 #### Bloco 3: [Introdução à HTML e CSS]
-- [ ] 3.5 - Projeto - Lessons Learned
+- [x] 3.5 - Projeto - Lessons Learned
 
 ##### Bloco 4: [Introdução à JavaScript e Lógica de Programação]
 - [ ] 4.5 - Projeto - Playground Functions
