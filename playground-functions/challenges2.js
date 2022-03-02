@@ -4,8 +4,8 @@ function techList(techArray, name) {
 
   for (let tech of techArray) {
     let object = {
-      tech: tech.toString(),
-      name: name,
+      tech,
+      name,
     };
     objArray.push(object);
   }
