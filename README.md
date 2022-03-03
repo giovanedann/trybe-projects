@@ -9,7 +9,7 @@ This repository contains all the projects made by __[me](https://www.linkedin.co
 - [x] 3.5 - Projeto - Lessons Learned
 
 ##### Bloco 4: [Introdução à JavaScript e Lógica de Programação]
-- [ ] 4.5 - Projeto - Playground Functions
+- [x] 4.5 - Projeto - Playground Functions
 
 ##### Bloco 5: [JavaScript: DOM, Eventos e Web Storage]
 - [ ] 5.5 - Projeto - Arte com Pixels
