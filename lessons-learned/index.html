@@ -9,8 +9,9 @@
   </head>
   <body>
 
-    <header>
-      <nav id="cabeçalho">
+   <header>
+
+      <nav id="cabecalho">
         <h1 id="titulo">Lessons Learned - Trybe</h1>
         <ul id="navigation-links">
              <li><a href="#about-me">About me</a></li>
@@ -18,15 +19,16 @@
              <li><a href="#progression">My progression</a></li>
         </ul>
       </nav>
-    </header>
+   
+   </header>
 
     <main>
 
       <img id="minha_foto" src="images/me.jpeg" alt="giovane's photo" />
 
-      <aside id="lesson-lists">
+      <div id="lesson-lists">
 
-          <section id="icons-list">
+          <div id="icons-list">
            <ul>
              <li><img class="icons" src="images/git-icon.png" alt="git-logo"></li>
              <li><img class="icons" src="images/node-removebg-preview.png" alt="node-logo"></li>
@@ -38,9 +40,9 @@
              <li><img class="icons" src="images/docker-logo.jpeg" alt="docker-logo"></li>
              <li><img class="icons" src="images/python-icon.png" alt="python-logo"></li>
            </ul>
-          </section> 
+          </div> 
 
-        <section id="lessons-learned">
+        <div id="lessons-learned">
          <h2 id="ol-heading"">Lessons learned</h2>
          <ol id="licoes_aprendidas">
           <li>Unix</li>
@@ -54,9 +56,9 @@
           <li>CSS Pseudo-classes</li>
           <li>Semantic HTML</li>
          </ol>
-        </section>
+        </div>
 
-        <section id="lessons-to-learn">
+        <div id="lessons-to-learn">
          <h2 id="ul-heading">Lessons to learn</h2>
           <ul id="licoes_a_aprender">
            <li>JavaScript</li>
@@ -70,54 +72,33 @@
            <li>Docker</li>
            <li>Python</li>
           </ul>
-        </section>
+        </div>
 
-        </aside>
-
-    </main>
+        </div>
 
     <article id="about-me">
 
       <h2>About me</h2>
 
      <p>
-     I joined Trybe on the class 21 in February, 2022. Up to now, we learned the basic commands of Linux Shell, what is Git and why is it used on technology companies and also what is GitHub. <br/>
-
-     Now, we are studying the principles of the web development, the basics of HTML and CSS, Semantic HTML, and stuff like that, to built and style web applications. <br/>
-
-     It's funny, you learn too much in just one week, it's a intense rythm of searching for knowledge and solving problems, we are trained to be developers since the first day of class.
+     My name is Giovane, i'm a mechanical engineer in a career transition to the Web Development World. <br/>
+     I'm actually studying at Trybe. It's funny, you learn too much in just one week, it's a intense rythm of searching for knowledge and solving problems, we are trained to be developers since the first day of class.
      </p>
 
     </article>
 
-    <article id="learnings">
-
-    <section class="lado-esquerdo">
-
-     <h2>My learnings</h2>
-
-     <p>
-          I have learned the basics of Linux shell, commands like mkdir, cd, pwd, ls, jobs. <br/>
-          I have also learned why every tag of HTML has a name, and how to style them changing the font family, size and color, also learned how the Box Model of CSS works. 
-     </p>
-
+    <section id="learnings">
+      <article class="lado-esquerdo">
+      <h2>My learnings</h2>
+      <p>I have learned the basics of Linux shell, commands like mkdir, cd, pwd, ls, jobs. <br/></p>
+      </article>
+      <aside class="lado-direito">
+      <h2> About my learnings</h2>
+      <p>Before Trybe, i was capable of building things, but now, after Trybe and their strategically thought path, everything makes more sense.</p>
+      </aside>
     </section>
-
-    <section class="lado-direito">
-
-     <h2> About my learnings</h2>
-
-     <p>
-          Before Trybe, i had a background in technology, i've been studying Python since August 2021. When i decided to change to JavaScript, i skipped the HTML and CSS learnings, to focus on the language. <br/>
-          Before, i was capable of building things, but now, after Trybe and their strategically thought path, everything makes more sense.
-     </p>
-
-    </section>
-
-    </article>
 
     <div id="section-table">
-
      <table id="modules-percentual">
           <caption id="progression">My progression</caption>
           <tr>
@@ -145,10 +126,10 @@
                <td>0%</td>
                <td>❌</td>
           </tr>
-          
      </table>
-
     </div>
+  </main>
+
 
     <footer id="rodape">
       <p>
