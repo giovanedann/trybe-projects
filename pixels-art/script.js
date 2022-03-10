@@ -105,7 +105,7 @@ createdBoardSizeInput.min = 1;
 const createdBoardSizeButton = document.createElement('button');
 
 createdBoardSizeButton.id = 'generate-board';
-createdBoardSizeButton.innerText = 'VQV';
+createdBoardSizeButton.innerText = 'Generate';
 
 pixelBoard.parentNode.insertBefore(createdBoardSizeInput, pixelBoard);
 pixelBoard.parentNode.insertBefore(createdBoardSizeButton, pixelBoard);

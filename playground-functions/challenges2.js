@@ -2,6 +2,10 @@
 function techList(techArray, name) {
   let objArray = [];
 
+  if (techArray.length === 0) {
+    return "Vazio!";
+  }
+
   for (let tech of techArray) {
     let object = {
       tech,
@@ -20,28 +24,35 @@ function generatePhoneNumber(numberArray) {
   let counter = 0;
 
   if (numberArray.length !== 11) {
-    return "incorrect size of the array";
-  };
+    return "Array com tamanho incorreto.";
+  }
 
   for (let number of numberArray) {
     if (number < 0 || number > 9) {
-      return "unvalid values";
-    };
-  };
+      return "não é possível gerar um número de telefone com esses valores";
+    }
+  }
 
   const occurrencesCounter = (array, number) =>
-    array.reduce((accumulator, indexValue) => indexValue === number ? accumulator + 1 : accumulator, 0);
+    array.reduce(
+      (accumulator, indexValue) =>
+        indexValue === number ? accumulator + 1 : accumulator,
+      0
+    );
 
   for (let number of numberArray) {
     let occurrences = occurrencesCounter(numberArray, number);
     if (occurrences > 2) {
-      return "numbers cannot repeat too many times";
-    };
-  };
+      return "não é possível gerar um número de telefone com esses valores";
+    }
+  }
 
   numberArray = numberArray.join("");
 
-  return `(${numberArray.slice(0, 2)}) ${numberArray.slice(2,7)}-${numberArray.slice(-4)}`;
+  return `(${numberArray.slice(0, 2)}) ${numberArray.slice(
+    2,
+    7
+  )}-${numberArray.slice(-4)}`;
 }
 
 // Desafio 12
@@ -62,11 +73,14 @@ function hydrate(string) {
   let stringArray = string.split(" ");
   stringArray = stringArray.filter(Number);
 
-  quantity = stringArray.reduce((accumulator, arrayItem) => Number(accumulator) + Number(arrayItem), 0);
+  quantity = stringArray.reduce(
+    (accumulator, arrayItem) => Number(accumulator) + Number(arrayItem),
+    0
+  );
 
   return quantity > 1
-    ? `${quantity} glasses of water`
-    : `${quantity} glass of water`;
+    ? `${quantity} copos de água`
+    : `${quantity} copo de água`;
 }
 
 module.exports = {
