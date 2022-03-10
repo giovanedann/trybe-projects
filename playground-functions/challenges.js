@@ -1,10 +1,6 @@
 // Desafio 1
 function compareTrue(boolean1, boolean2) {
-  if (boolean1 && boolean2) {
-    return true;
-  } else {
-    return false;
-  }
+  return boolean1 && boolean2 ? true : false;
 }
 
 // Desafio 2
@@ -48,16 +44,16 @@ function highestCount(numString) {
     }
   }
 
-  return `highest: ${highest} | counter: ${counter}`;
+  return counter;
 }
 
 // Desafio 7
 function catAndMouse(mouse, cat1, cat2) {
-  if (cat1 - mouse < cat2 - mouse) {
+  if (Math.abs(cat1 - mouse) < Math.abs(cat2 - mouse)) {
     return "cat1";
-  } else if (cat2 - mouse < cat1 - mouse) {
+  } else if (Math.abs(cat2 - mouse) < Math.abs(cat1 - mouse)) {
     return "cat2";
-  } else if (cat1 - mouse === cat2 - mouse) {
+  } else if (Math.abs(cat1 - mouse) === Math.abs(cat2 - mouse)) {
     return "os gatos trombam e o rato foge";
   }
 }
