@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,400;1,600;1,700&family=Poppins:wght@100;200;400;500;700&display=swap');
+
+/* Body */
+body {
+  font-family: poppins, sans-serif;
+  background-image: url('wallpaper2.png');
+  height: auto;
+  color: white;
+}
+
+/* Main */
+
+/* Title */
+#title {
+  text-align: center;
+  font-size: 50px;
+}
+
+/* Reset button */
+#clear-board {
+  display: inline-block;
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  font-family: poppins, sans-serif;
+  font-weight: 700;
+  margin-left: 43%;
+}
+
+#clear-board:hover {
+  cursor: pointer;
+}
+
+/* Color palette div */
+#color-palette {
+  margin-top: 50px;
+}
+
+/* Color squares to paint the matrix */
+.color {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  display: inline-block;
+  margin-left: 12%;
+}
+
+.color:hover {
+  cursor: pointer;
+}
+
+/* Color selectors to change the color of the variable square colors */
+.color-selector {
+  border-style: none;
+  background-color: white;
+  border-image: none;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+/* Pixel matrix */
+#pixel-board {
+  margin-top: 50px;
+}
+
+.pixel-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pixel {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+}
+
+/* Input field and button for the matrix size */
+/* Input field */
+#board-size {
+  display: inline-block;
+  margin-top: 20px;
+  width: 200px;
+  height: 25px;
+  font-size: 18px;
+  font-family: poppins, sans-serif;
+  font-weight: 700;
+  margin-left: 43%;
+}
+
+/* Button */
+#generate-board {
+  height: 30px;
+  font-size: 18px;
+  font-family: poppins, sans-serif;
+  font-weight: 600;
+  margin-left: 30px;
+}
+
+#generate-board:hover {
+  cursor: pointer;
+}
+
+/* Footer */
+footer p {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 80px;
+}
+
+footer p a {
+  text-decoration: underline;
+  color: white;
+}
