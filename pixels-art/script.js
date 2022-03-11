@@ -14,9 +14,9 @@ function randomColorsGenerator() {
 randomColorsGenerator()
 // creating local storage values
 localStorage.setItem('blackSquareColor', 'rgb(0, 0, 0)');
-localStorage.setItem('redSquareColor', randomColorsGenerator());
-localStorage.setItem('blueSquareColor', randomColorsGenerator());
-localStorage.setItem('greenSquareColor', randomColorsGenerator());
+localStorage.setItem('randomColor1', randomColorsGenerator());
+localStorage.setItem('randomColor2', randomColorsGenerator());
+localStorage.setItem('randomColor3', randomColorsGenerator());
 
 // setting the color of the squares equal to the color of the color selectors
 for (const selector of colorSelectors) {
@@ -142,16 +142,16 @@ window.addEventListener('load', () => {
       square.style.cursor = 'pointer';
       square.classList.add('selected');
     }
-    if (square.classList.contains('red')) {
-      square.style.backgroundColor = localStorage.getItem('redSquareColor');
+    if (square.classList.contains('random1')) {
+      square.style.backgroundColor = localStorage.getItem('randomColor1');
       square.style.cursor = 'pointer';
     }
-    if (square.classList.contains('blue')) {
-      square.style.backgroundColor = localStorage.getItem('blueSquareColor');
+    if (square.classList.contains('random2')) {
+      square.style.backgroundColor = localStorage.getItem('randomColor2');
       square.style.cursor = 'pointer';
     }
-    if (square.classList.contains('green')) {
-      square.style.backgroundColor = localStorage.getItem('greenSquareColor');
+    if (square.classList.contains('random3')) {
+      square.style.backgroundColor = localStorage.getItem('randomColor3');
       square.style.cursor = 'pointer';
     }
   }
