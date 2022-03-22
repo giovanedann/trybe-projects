@@ -19,7 +19,7 @@ This repository contains all the projects made by __[me](https://www.linkedin.co
 - [ ] 5.7 - (Bônus) Projeto - Carta Misteriosa
 
 ##### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo]
-- [ ] 6.6 - Projeto - Página inicial do Facebook
+- [ ] 6.6 - Projeto - Trybewarts
 
 ##### Bloco 7: [Introdução à JavaScript ES6 e Testes Unitários]
 - [ ] 7.4 - Projeto - JavaScript Testes Unitários
@@ -30,96 +30,96 @@ This repository contains all the projects made by __[me](https://www.linkedin.co
 ##### Bloco 9: [JavaScript Assíncrono e Promises]
 - [ ] 9.3 - Projeto - Carrinho de Compras
 
-##### Bloco 10: [Testes automatizados com Jest]
-- [ ] 10.4 - Projeto - Jest Assíncrono e Mocking
-
 ## Desenvolvimento Front-end :heavy_check_mark:
 
-##### Bloco 11: [Introdução à React]
-- [ ] 11.3 - Projeto - Movie Cards Library
+##### Bloco 10: [Introdução à React]
+- [ ] 11.3 - Projeto - Solar System
 
-##### Bloco 12: [Componentes com Estado, Eventos e Formulários com React]
-- [ ] 12.3 - Projeto - Movie Cards Library Stateful
+##### Bloco 11: [Componentes com Estado, Eventos e Formulários com React]
+- [ ] 12.3 - Projeto - Tryumph
 
-##### Bloco 13: [Ciclo de Vida de Componentes e React Router]
-- [ ] 13.3 - Projeto - Movie Cards Library CRUD
+##### Bloco 12: [Ciclo de Vida de Componentes e React Router]
+- [ ] 13.3 - Projeto - TrybeTunes
 
-##### Bloco 14: [Metodologias Ágeis]
+##### Bloco 13: [Metodologias Ágeis]
 - [ ] 14.2 - Projeto - Frontend Online Store
 
-##### Bloco 15: [Testes automatizados com React Testing Library]
-- [ ] 15.4 - Projeto - Testes em React
+##### Bloco 14: [Testes automatizados com React Testing Library]
+- [ ] 15.4 - Projeto - React Testing Library
 
-##### Bloco 16: [Gerenciamento de estado com Redux]
-- [ ] 16.6 - Projeto - Tabela com filtros de dados
+##### Bloco 15: [Gerenciamento de estado com Redux]
+- [ ] 16.6 - Projeto - Trybe Wallet
 
-##### Bloco 17: Projeto Jogo de Trivia
+##### Bloco 16: Projeto Jogo de Trivia
 - [ ] 17.1 - Projeto - Jogo de Trivia
 
-##### Bloco 18: [Context API e React Hooks]
+##### Bloco 17: [Context API e React Hooks]
 - [ ] 18.4 - Projeto - StarWars Datatable com Context API e Hooks
 
-##### Bloco 19: Projeto App de Receitas
+##### Bloco 18: Projeto App de Receitas
 - [ ] 19.1 - Projeto - App de Receitas
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
+
+##### Bloco 19: [Docker]
+- [ ] 20.5 - Projeto - Docker Todo List
 
 ##### Bloco 20: [Introdução à SQL]
 - [ ] 20.5 - Projeto - All For One
 
 ##### Bloco 21: [Funções SQL, Joins e Subqueries]
-- [ ] 21.4 - Projeto - Vocabulary Booster
+- [ ] 21.4 - Projeto - 
 
-##### Bloco 22: [Normalização e Modelagem de Banco de Dados]
-- [ ] 22.4 - Projeto - One For All
+##### Bloco 22: [Backend with Node.js]
+- [ ] 22.4 - Projeto - Talker Manager
 
-##### Bloco 23: [Introdução ao MongoDB]
-- [ ] 23.3 - Projeto - Data Flights
+##### Bloco 23: [RESTFul with node]
+- [ ] 23.3 - Projeto - Store Manager
 
-##### Bloco 24: [MongoDB: Updates Simples e Complexos]
-- [ ] 24.4 - Projeto - Commerce
+##### Bloco 24: [ORM and Authentication]
+- [ ] 24.4 - Projeto - Blogs API
 
-##### Bloco 25: [MongoDB: Aggregation Framework]
-- [ ] 25.3 - Projeto - Aggregations
+##### Bloco 25: [Deployment - Heroku]
+- [ ] 25.3 - Projeto - Stranger Things
 
-##### Bloco 26: [Introdução ao desenvolvimento Web com NodeJS]
-- [ ] 26.6 - Projeto - Talker manager
+##### Bloco 26: [TypeSript]
+- [ ] 26.6 - Projeto - TrybeSmith
 
-##### Bloco 27: [NodeJS: Camada de Serviço e Arquitetura Rest e Restful]
-- [ ] 27.5 - Projeto - Store Manager
+##### Bloco 27: [POO and SOLID]
+- [ ] 27.5 - Projeto - Trybers and Dragons
 
-##### Bloco 28: [Autenticação e Upload de Arquivos]
-- [ ] 28.4 - Projeto - Cookmaster
+##### Bloco 28: [POO and SOLID - II]
+- [ ] 28.4 - Projeto - Trybe Football Club
 
-##### Bloco 29: [Deployment]
-- [ ] 29.3 - Projeto - Stranger Things
+##### Bloco 29: [NoSQL - Mongo DB]
+- [ ] 29.3 - Projeto - Commerce
 
 ##### Bloco 30: Arquitetura: SOLID e ORM
 - [ ] 30.5 - Projeto - API de Blogs
 
-##### Bloco 31: Sockets
-- [ ] 31.3 - Projeto - Webchat
+##### Bloco 31: VPS, CI/CD - Masterclass
+- [ ] 31.3 - Projeto - null
 
-##### Bloco 32: Projeto Trybeer II
-- [ ] 32.1 - Projeto - Trybeer v2
+##### Bloco 32: Deliver App
+- [ ] 32.1 - Projeto - Deliver App
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
-##### Bloco 33: Arquitetura de Computadores e Redes
-- [ ] 33.5 - Projeto - Explorando os protocolos
+##### Bloco 33: Python Introduction
+- [ ] 33.5 - Projeto - Job Insights
 
-##### Bloco 34: Introdução à Python e Raspagem de Dados da Web
-- [ ] 34.5 - Projeto - Tech news
+##### Bloco 34: OOP and Design Patterns
+- [ ] 34.5 - Projeto - Stock Reports
 
-##### Bloco 35: Programação Orientada a Objetos e Padrões de Projeto
-- [ ] 35.4 - Projeto - Relatórios de Estoque
+##### Bloco 35: Networks and Web-Scraping
+- [ ] 35.4 - Projeto - Tech News
 
-##### Bloco 36: Algoritmos e Estrutura de Dados
-- [ ] 36.4 - Projeto - Algoritmos
+##### Bloco 36: Algorithms & Data Structure
+- [ ] 36.4 - Projeto - Algorithms
 
-##### Bloco 37: Estrutura de Dados: Hash e Set
+##### Bloco 37: Estrutura de Dados: Hashmaps, Array & Sets
 - [ ] 37.4 - Projeto - Restaurant Orders
 
-##### Bloco 38: Estrutura de Dados: Pilhas, Filas e Listas
+##### Bloco 38: Estrutura de Dados: Piles, Queues & Stacks
 - [ ] 38.4 - Projeto - TING - Trybe Is Not Google
 
