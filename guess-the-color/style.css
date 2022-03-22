@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,400;1,600;1,700&family=Poppins:wght@100;200;400;500;700&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: poppins, sans-serif;
+  margin: 50px;
+}
+
+/* Header */
+h1 {
+  font-size: 50px;
+  color: rgb(118, 74, 188);
+  max-width: 550px;
+  text-align: center;
+}
+
+/* Main */
+
+/* Color to guess */
+main p {
+  color: rgb(53, 52, 52);
+  max-width: 500px;
+  text-align: center;
+  margin: 30px;
+}
+
+#rgb-color {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/* Circles */
+#circle-container {
+  display: flex;
+  max-width: 500px;
+  margin-top: 30px;
+  justify-content: space-around;
+}
+
+.ball {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+/* Result container */
+#result-container {
+  margin-top: 30px;
+  width: 500px;
+}
+
+#answer {
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+/* Restart game button */
+#button-container {
+  display: flex;
+  margin-top: 30px;
+  width: 500px;
+  justify-content: center;
+}
+
+#reset-game {
+  font-family: poppins, sans-serif;
+  border-style: none;
+  font-size: 17px;
+  color: white;
+  background: linear-gradient(90deg, rgb(118, 74, 188), rgb(255, 0, 234));
+  font-weight: 700;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#reset-game:hover {
+  opacity: 80%;
+  transition: 0.2s ease-in-out;
+}
+
+/* Score container */
+#score-container {
+  display: flex;
+  width: 500px;
+  justify-content: center;
+}
+
+#score-container p {
+  font-size: 20px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>MEME GENERATOR</h1>
+    </header>
+    <main>
+
+      <div id="input-container">
+
+        <input type="text" id="text-input" maxlength="60" placeholder="Type the meme text"/>
+
+        <input type="file" accept="image/*" id="meme-insert">
+
+      </div>
+
+      <div id="meme-container">
+        <div id="meme-image-container">
+          <span id="meme-text"></span>
+          <img id="meme-image"/>
+        </div>
+      </div>
+
+      <div id="buttons-container">
+        <button id="fire">Fire 🔥</button>
+        <button id="water">Water 🌊</button>
+        <button id="earth">Earth 🌏</button>
+      </div>
+
+      <div id="preloaded-memes-container">
+        <div id="meme-1"><img class="default-meme" src="imgs/meme1.png" alt="butterfly-meme"></div>
+        <div id="meme-2"><img class="default-meme" src="imgs/meme2.png" alt="peepo-sad-meme"></div>
+        <div id="meme-3"><img class="default-meme" src="imgs/meme3.png" alt="juan-joya-kekw-meme"></div>
+        <div id="meme-4"><img class="default-meme" src="imgs/meme4.png" alt="sulley-face-meme"></div>
+      </div>
+    </main>
+    <footer>Designed by <a href="https://github.com/giovanedann" target="_blank">Giovane</a>, 2022.</footer>
+  </body>
+</html>

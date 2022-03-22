@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,400;1,600;1,700&family=Poppins:wght@100;200;400;500;700&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+/* Body */
+body {
+  font-family: poppins, sans-serif;
+  margin: 50px;
+  background-color: rgb(75 , 135 , 212);
+}
+
+/* Content container */
+#content-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+/* Header */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+/* Functionality text */
+#funcionamento {
+  font-style: italic;
+  font-size: 20px;
+  color: rgb(61 , 73 , 92);
+}
+
+/* Main content */
+main {
+  display: flex;
+  justify-content: center;
+}
+
+/* All buttons */
+button {
+  border-radius: 5px;
+  font-family: poppins, sans-serif;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  margin-left: 20px;
+  font-size: 16px;
+  height: 35px;
+}
+
+/* Task input */
+#texto-tarefa {
+  width: 500px;
+  height: 35px;
+  font-size: 20px;
+  font-family: poppins, sans-serif;
+  border: 3px solid;
+  border-radius: 5px;
+}
+
+#texto-tarefa:focus {
+  border-color: rgb(0 , 119 , 255);
+}
+
+/* Create task button */
+#criar-tarefa {
+  width: 80px;
+  background-color: green;
+}
+
+#criar-tarefa:hover {
+  cursor: pointer;
+  background-color: rgb(52 , 196 , 52);
+}
+
+/* Delete all button */
+#apaga-tudo {
+  width: 140px;
+  background-color: red;
+}
+
+#apaga-tudo:hover {
+  cursor: pointer;
+  background-color: rgb(245 , 77 , 48);
+}
+
+/* Remove finished tasks button */
+#remover-finalizados {
+  width: 190px;
+  background-color: rgb(194 , 62 , 1);
+}
+
+#remover-finalizados:hover {
+  cursor: pointer;
+  background-color: rgb(255 , 123 , 0);
+}
+
+/* Task list */
+#lista-tarefas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: circle;
+  list-style-type: disc;
+  font-size: 22px;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.selected-task {
+  background-color: gray;
+}
+
+/* Completed task */
+.completed {
+  text-decoration: line-through solid black;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Save tasks button */
+#salvar-tarefas {
+  width: 190px;
+  background-color: black;
+}
+
+#salvar-tarefas:hover {
+  cursor: pointer;
+  background-color: rgb(77 , 75 , 73);
+}
+
+/* Move task buttons */
+
+/* Move up */
+#mover-cima {
+  width: 100px;
+  background-color: rgb(179 , 86 , 10);
+}
+
+#mover-cima:hover {
+  cursor: pointer;
+  background-color: rgb(255 , 128 , 0);
+}
+
+/* Move down */
+#mover-baixo {
+  width: 100px;
+  background-color: rgb(179 , 86 , 10);
+}
+
+#mover-baixo:hover {
+  cursor: pointer;
+  background-color: rgb(255 , 128 , 0);
+}
+
+/* Remove selected task */
+#remover-selecionado {
+  width: 220px;
+  background-color: rgb(21 , 10 , 180);
+}
+
+#remover-selecionado:hover {
+  cursor: pointer;
+  background-color: rgb(35 , 49 , 241);
+}
+
