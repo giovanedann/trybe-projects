@@ -12,11 +12,11 @@ This repository contains all the projects made by __[me](https://www.linkedin.co
 - [x] 4.5 - Projeto - Playground Functions
 
 ##### Bloco 5: [JavaScript: DOM, Eventos e Web Storage]
-- [ ] 5.5 - Projeto - Arte com Pixels
-- [ ] 5.6 - Projeto - Lista de tarefas
-- [ ] 5.7 - (Bônus) Projeto - Meme Generator
-- [ ] 5.7 - (Bônus) Projeto - Adivinhe a Cor
-- [ ] 5.7 - (Bônus) Projeto - Carta Misteriosa
+- [x] 5.5 - Projeto - Arte com Pixels
+- [x] 5.6 - Projeto - Lista de tarefas
+- [x] 5.7 - (Bônus) Projeto - Meme Generator
+- [x] 5.7 - (Bônus) Projeto - Adivinhe a Cor
+- [x] 5.7 - (Bônus) Projeto - Carta Misteriosa
 
 ##### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo]
 - [ ] 6.6 - Projeto - Trybewarts
