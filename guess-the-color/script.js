@@ -44,11 +44,11 @@ let score = 0;
 function addEventToCircles() {
   circlesContainer.addEventListener('click', (event) => {
     if (event.target.style.backgroundColor === `rgb${colorToGuessRGB}`) {
-      resultText.innerText = 'Acertou!';
+      resultText.innerText = 'Right one! 🥳🎉';
       score += 3;
       scoreboard.innerText = score;
     } else {
-      resultText.innerText = 'Errou! Tente novamente!';
+      resultText.innerText = 'Wrong! 😢';
     }
   });
 }
@@ -67,7 +67,7 @@ restartButton.addEventListener('click', () => {
   addEventToCircles();
 
   colorToGuess.innerText = `${colorToGuessRGB}`;
-  resultText.innerText = 'Escolha uma cor';
+  resultText.innerText = 'Choose a color';
 });
 
 // Loading page
