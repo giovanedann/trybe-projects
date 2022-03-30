@@ -44,7 +44,7 @@ function matrixOfPixels(size) {
       createdSinglePixel.className = 'pixel';
       createdSinglePixel.style.cursor = 'pointer';
 
-      createdSinglePixel.addEventListener('click', () => {
+      createdSinglePixel.addEventListener('mousedown', () => {
         createdSinglePixel.style.backgroundColor =
           sessionStorage.getItem('selectedColor');
       });
@@ -52,6 +52,7 @@ function matrixOfPixels(size) {
       line.appendChild(createdSinglePixel);
     }
   }
+
 }
 
 // function to clear the matrix every time the matrix size button is clicked
