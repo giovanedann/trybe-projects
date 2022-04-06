@@ -76,7 +76,6 @@ const createCartItem = async (productId) => {
   updateCartValue();
 
   const totalPrice = document.querySelector(totalPriceClass);
-
   totalPrice.innerText = parseFloat((Number(totalPrice.innerText) + salePrice).toFixed(2));
 };
 
