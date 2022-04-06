@@ -2,6 +2,10 @@
 
 This repository contains all the projects made by __[me](https://www.linkedin.com/in/giovane-daniel-a53b38196/)__ during my year studying in [Trybe](https://www.betrybe.com/). �🚀
 
+To navigate through the projects, simply place on your browser the main url: https://giovanedann.github.io/trybe-projects/project-name
+
+For example: https://giovanedann.github.io/trybe-projects/shopping-cart/
+
 >"O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais." <br/>
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
@@ -19,16 +23,16 @@ This repository contains all the projects made by __[me](https://www.linkedin.co
 - [x] 5.7 - (Bônus) Projeto - Carta Misteriosa
 
 ##### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo]
-- [ ] 6.6 - Projeto - Trybewarts
+- [x] 6.6 - Projeto - Trybewarts
 
 ##### Bloco 7: [Introdução à JavaScript ES6 e Testes Unitários]
-- [ ] 7.4 - Projeto - JavaScript Testes Unitários
+- [x] 7.4 - Projeto - JavaScript Testes Unitários
 
 ##### Bloco 8: [Higher Order Functions do JavaScript ES6]
-- [ ] 8.5 - Projeto - Zoo functions
+- [x] 8.5 - Projeto - Zoo functions
 
 ##### Bloco 9: [JavaScript Assíncrono e Promises]
-- [ ] 9.3 - Projeto - Carrinho de Compras
+- [x] 9.3 - Projeto - Carrinho de Compras
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
