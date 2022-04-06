@@ -157,8 +157,15 @@ body {
 }
 
 .cart .cart__item {
+  display: flex;
   margin: 20px 10px;
   cursor: pointer;
+}
+
+.cart .cart__item img {
+  width: 100px;
+  height: 100px;
+  align-self: center;
 }
 
 .cart .cart__item:hover {
