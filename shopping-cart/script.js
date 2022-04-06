@@ -55,12 +55,13 @@ function cartItemClickListener(event) {
 }
 
 function createCartItemElement({ sku, name, salePrice, image }) {
-  const img = createProductImageElement(image)
-  const li = document.createElement('li');
-  li.className = 'cart__item';
-  li.innerText = `${sku} \n${name} \n$${salePrice}`;
-  li.addEventListener('click', cartItemClickListener);
-  return li;
+  const img = createProductImageElement(image);
+  const div = document.createElement('div');
+  div.className = 'cart__item';
+  div.innerText = `${sku} \n${name} \nR$${salePrice}`;
+  div.addEventListener('click', cartItemClickListener);
+  div.appendChild(img);
+  return div;
 }
 
 // Function to create cart item - Implemented by me
@@ -68,8 +69,8 @@ const createCartItem = async (productId) => {
   cartItems.appendChild(createCustomElement('p', 'loading', 'Carregando...'));
   const item = await fetchItem(productId);
   cartItems.querySelector('.loading').remove();
-  const [sku, name, salePrice] = [item.id, item.title, Number(item.price)];
-  const cartElement = createCartItemElement({ sku, name, salePrice });
+  const [sku, name, salePrice, image] = [item.id, item.title, Number(item.price), item.thumbnail];
+  const cartElement = createCartItemElement({ sku, name, salePrice, image });
   cartItems.appendChild(cartElement);
   updateCartItems();
   updateCartValue();
