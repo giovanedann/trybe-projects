@@ -45,7 +45,7 @@ const updateCartValue = () => {
   localStorage.setItem('cartPrice', priceContainer.innerHTML);
 };
 
-// Function to remove item and change the tototal price - Implemented by me
+// Function to remove item and change the total price - Implemented by me
 function cartItemClickListener(event) {
   const totalPrice = document.querySelector(totalPriceClass);
   const itemPrice = event.target.innerText.split('$').pop();
@@ -80,7 +80,6 @@ const createCartItem = async (productId) => {
 };
 
 // Functions to add the event listener of the buttons and list items on window load - Implemented by me
-
 // Button listeners
 const addButtonListeners = () => {
   document.querySelectorAll('.item__add').forEach((item) => item.addEventListener('click', (e) => {

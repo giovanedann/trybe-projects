@@ -104,10 +104,15 @@ body {
   flex-direction: column;
   height: auto;
   margin: 5px;
-  width: 200px;
+  width: 220px;
   border: 2px solid rgb(234, 234, 233);
   border-radius: 5px;
   box-sizing: border-box;
+  transition: all 0.5s;
+}
+
+.item:hover {
+  transform: scale(1.05);
 }
 
 .item .item__sku {
@@ -160,6 +165,11 @@ body {
   display: flex;
   margin: 20px 10px;
   cursor: pointer;
+  transition: all 0.5s;
+}
+
+.cart .cart__item:hover {
+  transform: scale(1.04)
 }
 
 .cart .cart__item img {
