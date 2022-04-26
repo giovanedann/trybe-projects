@@ -37,10 +37,10 @@ For example: https://giovanedann.github.io/trybe-projects/shopping-cart/
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 ##### Bloco 10: [Introdução à React]
-- [ ] 11.3 - Projeto - Solar System
+- [x] 11.3 - Projeto - Solar System
 
 ##### Bloco 11: [Componentes com Estado, Eventos e Formulários com React]
-- [ ] 12.3 - Projeto - Tryumph
+- [x] 12.3 - Projeto - Tryumph
 
 ##### Bloco 12: [Ciclo de Vida de Componentes e React Router]
 - [ ] 13.3 - Projeto - TrybeTunes
